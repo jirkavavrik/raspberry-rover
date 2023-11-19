@@ -13,7 +13,7 @@ main features:
 other specs:
 * Raspberry Pi Zero with external wifi adapter
 * pca9685 for PWM outputs
-* 1,5 Ah Li-Po with a buck converterter for power
+* 1,5 Ah 2S Li-Po with a buck converterter for power
 * generic DC motor driver board
 
 Photo:
