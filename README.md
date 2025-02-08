@@ -1,26 +1,27 @@
 # Raspberry rover
 
-Raspberry rover is a Raspberry pi Zero powered vehicle that can be controlled from any client using HTTP requests
+Raspberry rover is a Raspberry pi Zero & Node-RED powered vehicle that can be controlled from any client using HTTP requests.
 
 main features:
-* two DC motors to move around
-* A Raspberry Pi Camera - viewing real-time image in a web browser
-* two white leds as headlights
-* a status indicating rgb led
-* voltage sensing (voltage divider and ads1115) to monitor Li-Po battery voltage
-* reset and power-down buttons
+* 4 Mecanum wheels powered by DC motors to move around
+* Raspberry Pi Camera - viewing real-time image in a web browser
+* LED headlight
+* Status indicating RGB LED
+* Voltage sensing (voltage divider and ads1115) to monitor Li-Po battery voltage
+* Reset and power-down buttons
 
 other specs:
 * Raspberry Pi Zero with external wifi adapter
-* pca9685 for PWM outputs
+* PCA9685 for PWM outputs
 * 1,5 Ah 2S Li-Po with a buck converterter for power
-* generic DC motor driver board
+* A generic DC motor driver board
 
 Photo:
 
-![Raspberry rover photo](doc/photo.jpg)
+![Raspberry rover photo](doc/rover_photo_1.jpg)
+![Raspberry rover photo](doc/rover_photo_2.jpg)
 
-## Schematics
+## Block diagram
 
-See image below or download pdf (https://github.com/jirkavavrik/raspberry-rover/blob/master/doc/Schematic_Raspberry-rover.pdf)
-![Raspberry rover schematics](doc/Schematic_Raspberry-rover.png)
+To help you build it yourself, see image below or download it in .drawio format (https://github.com/jirkavavrik/raspberry-rover/blob/main/doc/raspberry-rover-block-diagram.drawio)
+![Raspberry rover block diagram](doc/raspberry-rover-block-diagram.webp)
